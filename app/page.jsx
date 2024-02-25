@@ -1,3 +1,4 @@
+import Feed from "@/components/Feed";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
         Prompt - Ai is an open-source AI prompting tool for modern world to
         discover and share prompts.
       </p>
-      {/* Feed */}
+      <Feed />
     </section>
   );
 }
